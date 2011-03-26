@@ -45,12 +45,21 @@ class DenseMatrix
   end
 
   def pairwise_pt_distances
+    # gather pairwise dists
+    dists = []
+    total_dist = 0.0
     (0...@rows).each do |a|
       ra = row a
       ((a+1)...@rows).each do |b|
         rb = row b
-        puts "#{a} #{b} dist=#{ra.distance_to(rb)}"
+        dist = ra.distance_to rb
+        dists << [a,b,dist]
+        total_dist += dist 
       end
+    end
+    dists.each do |pair_and_dist|
+      a,b,dist = pair_and_dist
+      puts "#{a} #{b} normalised dist #{dist/total_dist}"
     end
   end
   
