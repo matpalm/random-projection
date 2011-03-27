@@ -15,10 +15,13 @@ end
 
 class DenseMatrix
 
+  attr_accessor :rows, :cols, :colour_for_row
+
   def initialize rows, cols
     @rows, @cols = rows, cols
     @data_by_row = []
     @rows.times { @data_by_row << [] }
+    @colour_for_row = []
   end
 
   def random_fill max_val
@@ -44,25 +47,16 @@ class DenseMatrix
     @data_by_row[i]
   end
 
-  def pairwise_pt_distances
-    # gather pairwise dists
-    dists = []
-    total_dist = 0.0
-    (0...@rows).each do |a|
-      ra = row a
-      ((a+1)...@rows).each do |b|
-        rb = row b
-        dist = ra.distance_to rb
-        dists << [a,b,dist]
-        total_dist += dist 
-      end
+  def write_to filename
+    file = File.new(filename,'w')
+    @data_by_row.each_with_index do |row, index|
+      file.print row.join(",")
+      file.print ",#{@colour_for_row[index].to_s}"
+      file.print "\n"
     end
-    dists.each do |pair_and_dist|
-      a,b,dist = pair_and_dist
-      puts "#{a} #{b} normalised dist #{dist/total_dist}"
-    end
+    file.close
   end
-  
+
   private 
 
   def bounds_check i, j

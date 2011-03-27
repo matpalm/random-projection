@@ -1,14 +1,21 @@
 #!/usr/bin/env ruby
 require 'dense_matrix'
+require 'random_2d_matrix_builder'
 require 'random_column'
 
-I,J,K = 3,2,1
+I,J,K = 9,2,1 # 60 pts (20 per triangle point) in 2d projected to 1d
 
 seed = (ARGV[0] || Time.now).to_i
 srand seed
 
 A = DenseMatrix.new I,J
-A.random_fill 10
+builder = Random2DMatrixBuilder.new A
+colours = %W(red green blue)
+(I/3).times do |row|
+  builder.add_random_row 0,0,2,:red
+  builder.add_random_row 10,0,2,:green
+  builder.add_random_row 5,8.66,2,:blue
+end
 
 A_ = DenseMatrix.new I,K
 
@@ -29,8 +36,10 @@ K.times do |k|
   end
 end
 
+I.times { |i| A_.colour_for_row[i] = A.colour_for_row[i] }
+
 puts A.inspect
-A.pairwise_pt_distances
+A.write_to 'a'
 
 puts A_.inspect
-A_.pairwise_pt_distances
+A_.write_to 'a_'
