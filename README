@@ -7,9 +7,7 @@ requires ggplot2
 R> install.packages("ggplot2")
 
 $ ./project_triangle.rb
-$ R --vanilla < plot.r   
-$ open a.png a_.png
+look at pngs
 
 $ ./project_two_circles.rb
-$ R --vanilla < plot.r   
-$ open a.png a_.png
+look at pngs
