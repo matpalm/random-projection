@@ -3,7 +3,13 @@ experimenting with dimensionality reduction via a random projection
 can reduce A (ixj) to size A' (ixk) (k<j)
 by AB=A' when B (jxk) has random values with each column vector being unit length
 
+requires ggplot2
+R> install.packages("ggplot2")
+
 $ ./project_triangle.rb
-$ R --vanilla < plot.r
+$ R --vanilla < plot.r   
 $ open a.png a_.png
 
+$ ./project_two_circles.rb
+$ R --vanilla < plot.r   
+$ open a.png a_.png
