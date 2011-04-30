@@ -1,18 +1,5 @@
 # simple array back 2d matrix
 
-class Array
-
-  def distance_to other
-    dist = 0.0
-    self.zip(other).each do |pair|
-      delta = pair[0] - pair[1]
-      dist += delta * delta
-    end
-    Math.sqrt dist
-  end
-
-end
-
 class DenseMatrix
 
   attr_accessor :rows, :cols, :colour_for_row
