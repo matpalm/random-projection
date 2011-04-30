@@ -1,6 +1,9 @@
+lims = c(0,10)
+library(ggplot2)
+
 a = read.csv('a',header=FALSE)
 png("a.png", width=200, height=200, bg="transparent")
-plot(a$V1,a$V2,col=sapply(a$V3,toString),pch=19,lwd=10)
+plot(a$V1,a$V2,col=sapply(a$V3,toString),pch=19,lwd=10,xlim=lims,ylim=lims)
 dev.off()
 
 a_ = read.csv('a_',header=FALSE)

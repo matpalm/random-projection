@@ -3,17 +3,16 @@ require 'dense_matrix'
 require 'random_2d_matrix_builder'
 require 'random_column'
 
-I,J,K = 9,2,1 # 9 pts (3 per triangle point) in 2d projected to 1d
+I,J,K = 20,2,1 # 20 pts (10 per circle) in 2d projected to 1d
 
 seed = (ARGV[0] || Time.now).to_i
 srand seed
 
 A = DenseMatrix.new I,J
 builder = Random2DMatrixBuilder.new A
-(I/3).times do |row|
-  builder.add_random_row 0,0,2,:red
-  builder.add_random_row 10,0,2,:green
-  builder.add_random_row 5,8.66,2,:blue
+(I/2).times do |row|
+  builder.add_random_row 8,2,2,:red
+  builder.add_random_row 2,8,2,:blue
 end
 
 A_ = DenseMatrix.new I,K
