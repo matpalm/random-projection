@@ -56,7 +56,7 @@ class DenseMatrix
       lims = c(0,10)
       library(ggplot2)
       a = read.csv("#{data_file_path}",header=FALSE)
-      png("#{filename}.png", width=200, height=200, bg="transparent")
+      png("#{filename}.png", width=600, height=600, bg="transparent")
       plot(a$V1,a$V2,col=sapply(a$V3,toString),pch=19,lwd=10,xlim=lims,ylim=lims)
       dev.off()
     EOF

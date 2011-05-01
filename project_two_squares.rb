@@ -4,7 +4,7 @@ require 'random_projection'
 class ProjectTwoCircles < RandomProjection 
 
     def specific_i
-      10
+      50
     end
 
     def add_random_rows_using_builder

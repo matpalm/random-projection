@@ -6,8 +6,16 @@ by AB=A' when B (jxk) has random values with each column vector being unit lengt
 requires ggplot2
 R> install.packages("ggplot2")
 
+$ ./project_two_circles.rb
+look at pngs
+
 $ ./project_triangle.rb
 look at pngs
 
-$ ./project_two_circles.rb
-look at pngs
+blognotes:
+- dimensionality reduction
+- random projection
+- why bother?
+ - reduced size; feature hashing => fixed size
+ - turns sparse into dense allowing item comparison that might have otherwise not been possible
+

@@ -8,9 +8,9 @@ class ProjectTriangle < RandomProjection
   end
 
   def add_random_rows_using_builder
-    (@I/3).times { @builder.add_random_row 0,0, 1, :red }
-    (@I/3).times { @builder.add_random_row 10,0, 1, :green }
-    (@I/3).times { @builder.add_random_row 5,8.66, 1, :blue }
+    (@I/3).times { @builder.add_random_row 1,1, 1, :red }
+    (@I/3).times { @builder.add_random_row 9,1, 1, :green }
+    (@I/3).times { @builder.add_random_row 5,7.66, 1, :blue }
   end
   
 end
