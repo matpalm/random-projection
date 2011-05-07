@@ -3,6 +3,55 @@ experimenting with dimensionality reduction via a random projection
 can reduce A (ixj) to size A' (ixk) (k<j)
 by AB=A' when B (jxk) has random values with each column vector being unit length
 
+2d points
+ ./generate_hypercube.rb 2 2 50 > 2d_points.data
+
+2d_data.png
+ ./data_to_ggobi.rb < 2d_points.data > 2d_points.ggobi.xml
+
+run up in weka and project to 1d 5 times; 2d_to_1d_run[12345].arff
+ ./data_to_arff.rb < 2d_points.data > 2d_points.arff 
+
+manually combine into single file; 2d_to_1d_combined.data to make 2d_to_1d_projection.png
+ ./rnd_prj_run_to_data.rb 0 < 2d_to_1d_PCA.arff > 2d_to_1d.combined.data
+ ./rnd_prj_run_to_data.rb 1 < 2d_to_1d_run1.arff >> 2d_to_1d.combined.data
+ ./rnd_prj_run_to_data.rb 2 < 2d_to_1d_run2.arff >> 2d_to_1d.combined.data
+ ./rnd_prj_run_to_data.rb 3 < 2d_to_1d_run3.arff >> 2d_to_1d.combined.data
+ ./rnd_prj_run_to_data.rb 4 < 2d_to_1d_run4.arff >> 2d_to_1d.combined.data
+ ./rnd_prj_run_to_data.rb 5 < 2d_to_1d_run5.arff >> 2d_to_1d.combined.data
+ ./data_to_ggobi.rb < 2d_to_1d.combined.data > 2d_to_1d.combined.ggobi.xml
+ ggobi 2d_to_1d.combined.ggobi.xml
+
+10d points
+ ./generate_hypercube.rb 10 2 50 > 10d_points.data
+
+10d_data.png
+ ./data_to_ggobi.rb < 10d_points.data > 10d_points.ggobi.xml
+
+run up in weka to prj down
+ ./data_to_arff.rb < 10d_points.data > 10d_points.arff
+
+ ./rnd_prj_run_to_data.rb 0 < 10d_to_1d_PCA.arff > 10d_to_1d.combined.data
+ ./rnd_prj_run_to_data.rb 1 < 10d_to_1d_run1.arff >> 10d_to_1d.combined.data
+ ./rnd_prj_run_to_data.rb 2 < 10d_to_1d_run2.arff >> 10d_to_1d.combined.data
+ ./rnd_prj_run_to_data.rb 3 < 10d_to_1d_run3.arff >> 10d_to_1d.combined.data
+ ./rnd_prj_run_to_data.rb 4 < 10d_to_1d_run4.arff >> 10d_to_1d.combined.data
+ ./rnd_prj_run_to_data.rb 5 < 10d_to_1d_run5.arff >> 10d_to_1d.combined.data
+ ./data_to_ggobi.rb < 10d_to_1d.combined.data > 10d_to_1d.combined.ggobi.xml
+ ggobi 10d_to_1d.combined.ggobi.xml
+
+plot each in ggobi
+ cat 10d_to_2d_PCA.arff | ./arff_to_data.rb | ./data_to_ggobi.rb > 10d_to_2d_PCA.ggobi.xml
+ cat 10d_to_2d_run1.arff | ./arff_to_data.rb | ./data_to_ggobi.rb > 10d_to_2d_run1.ggobi.xml
+ cat 10d_to_2d_run2.arff | ./arff_to_data.rb | ./data_to_ggobi.rb > 10d_to_2d_run2.ggobi.xml
+ cat 10d_to_2d_run3.arff | ./arff_to_data.rb | ./data_to_ggobi.rb > 10d_to_2d_run3.ggobi.xml
+ cat 10d_to_2d_run4.arff | ./arff_to_data.rb | ./data_to_ggobi.rb > 10d_to_2d_run4.ggobi.xml
+ cat 10d_to_2d_run5.arff | ./arff_to_data.rb | ./data_to_ggobi.rb > 10d_to_2d_run5.ggobi.xml
+
+
+--------------------
+---- old v1
+
 requires ggplot2
 R> install.packages("ggplot2")
 
@@ -12,10 +61,16 @@ look at pngs
 $ ./project_triangle.rb
 look at pngs
 
-blognotes:
-- dimensionality reduction
-- random projection
-- why bother?
- - reduced size; feature hashing => fixed size
- - turns sparse into dense allowing item comparison that might have otherwise not been possible
+todo: 
+
+example similiar to svd case of 
+11000000
+01100000
+00110000
+00001100
+00000110
+00000011
+
+general block of text (as an example of sparse data)
+
 

@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<!DOCTYPE ggobidata SYSTEM "ggobi.dtd">
+<ggobidata count="1">
+<activeColorScheme name="Spectral 6"/>
+<data>
+<variables count="3">
+ <realvariable name="f1"/>
+ <realvariable name="f2"/>
+</variables>
+<records count="100" glyph="fc 1" color="1">
+<record color="0">
+<real>-1.371033</real><real>-2.767991</real>
+</record>
+<record color="0">
+<real>-2.891612</real><real>-7.388075</real>
+</record>
+<record color="0">
+<real>4.660324</real><real>-3.221164</real>
+</record>
+<record color="0">
+<real>-3.52986</real><real>-0.633215</real>
+</record>
+<record color="0">
+<real>1.324843</real><real>-3.464494</real>
+</record>
+<record color="0">
+<real>1.221014</real><real>-15.259573</real>
+</record>
+<record color="0">
+<real>5.906484</real><real>-8.52219</real>
+</record>
+<record color="0">
+<real>1.669564</real><real>-4.145184</real>
+</record>
+<record color="0">
+<real>-2.799561</real><real>-15.928904</real>
+</record>
+<record color="0">
+<real>1.861007</real><real>-7.141382</real>
+</record>
+<record color="0">
+<real>-2.981024</real><real>-3.705549</real>
+</record>
+<record color="0">
+<real>-2.746489</real><real>1.808813</real>
+</record>
+<record color="0">
+<real>1.932846</real><real>2.563425</real>
+</record>
+<record color="0">
+<real>-3.831066</real><real>-3.096907</real>
+</record>
+<record color="0">
+<real>-1.025908</real><real>-0.39251</real>
+</record>
+<record color="0">
+<real>-4.265303</real><real>-6.677926</real>
+</record>
+<record color="0">
+<real>-4.271029</real><real>-6.368813</real>
+</record>
+<record color="0">
+<real>-5.073457</real><real>0.716931</real>
+</record>
+<record color="0">
+<real>-1.194543</real><real>2.415653</real>
+</record>
+<record color="0">
+<real>-5.479294</real><real>-8.437139</real>
+</record>
+<record color="0">
+<real>1.929628</real><real>-1.338764</real>
+</record>
+<record color="0">
+<real>1.472958</real><real>-3.520914</real>
+</record>
+<record color="0">
+<real>2.348686</real><real>-15.57009</real>
+</record>
+<record color="0">
+<real>-0.154221</real><real>-5.828846</real>
+</record>
+<record color="0">
+<real>0.807096</real><real>-5.441688</real>
+</record>
+<record color="0">
+<real>1.42127</real><real>6.198579</real>
+</record>
+<record color="0">
+<real>-1.828326</real><real>-0.512519</real>
+</record>
+<record color="0">
+<real>1.445768</real><real>2.004364</real>
+</record>
+<record color="0">
+<real>-5.284477</real><real>-3.633607</real>
+</record>
+<record color="0">
+<real>-0.98073</real><real>5.833384</real>
+</record>
+<record color="0">
+<real>-4.153602</real><real>5.061002</real>
+</record>
+<record color="0">
+<real>-0.443527</real><real>-3.296758</real>
+</record>
+<record color="0">
+<real>-1.435762</real><real>-3.496063</real>
+</record>
+<record color="0">
+<real>1.377995</real><real>-7.872533</real>
+</record>
+<record color="0">
+<real>1.037081</real><real>0.90295</real>
+</record>
+<record color="0">
+<real>-0.067423</real><real>0.20627</real>
+</record>
+<record color="0">
+<real>4.486706</real><real>-5.132894</real>
+</record>
+<record color="0">
+<real>-6.189561</real><real>-4.072539</real>
+</record>
+<record color="0">
+<real>-1.761447</real><real>-10.989152</real>
+</record>
+<record color="0">
+<real>2.365653</real><real>-3.14638</real>
+</record>
+<record color="0">
+<real>5.245454</real><real>0.557114</real>
+</record>
+<record color="0">
+<real>6.339964</real><real>-11.782894</real>
+</record>
+<record color="0">
+<real>6.421586</real><real>1.117354</real>
+</record>
+<record color="0">
+<real>-3.097867</real><real>-7.384035</real>
+</record>
+<record color="0">
+<real>-6.749185</real><real>-10.051856</real>
+</record>
+<record color="0">
+<real>6.818155</real><real>-4.073891</real>
+</record>
+<record color="0">
+<real>-0.883554</real><real>3.671907</real>
+</record>
+<record color="0">
+<real>0.030693</real><real>-6.736533</real>
+</record>
+<record color="0">
+<real>-4.306809</real><real>-5.624859</real>
+</record>
+<record color="0">
+<real>9.210347</real><real>-3.201985</real>
+</record>
+<record color="1">
+<real>-2.60502</real><real>-12.851379</real>
+</record>
+<record color="1">
+<real>-2.9493</real><real>-17.243163</real>
+</record>
+<record color="1">
+<real>1.535033</real><real>-17.685729</real>
+</record>
+<record color="1">
+<real>2.789584</real><real>-15.673045</real>
+</record>
+<record color="1">
+<real>-1.151371</real><real>-7.484395</real>
+</record>
+<record color="1">
+<real>0.227252</real><real>-14.27085</real>
+</record>
+<record color="1">
+<real>-1.471584</real><real>-4.489897</real>
+</record>
+<record color="1">
+<real>-5.005128</real><real>-6.599764</real>
+</record>
+<record color="1">
+<real>-5.350123</real><real>-8.850193</real>
+</record>
+<record color="1">
+<real>-7.538286</real><real>-17.048256</real>
+</record>
+<record color="1">
+<real>-5.394485</real><real>-17.751909</real>
+</record>
+<record color="1">
+<real>3.277664</real><real>-12.516737</real>
+</record>
+<record color="1">
+<real>-6.800014</real><real>-18.747207</real>
+</record>
+<record color="1">
+<real>1.991126</real><real>-25.995988</real>
+</record>
+<record color="1">
+<real>-4.618021</real><real>-12.133459</real>
+</record>
+<record color="1">
+<real>0.951253</real><real>-11.876292</real>
+</record>
+<record color="1">
+<real>0.607781</real><real>-15.150334</real>
+</record>
+<record color="1">
+<real>-1.889869</real><real>-13.654065</real>
+</record>
+<record color="1">
+<real>0.754564</real><real>-13.124588</real>
+</record>
+<record color="1">
+<real>-7.195297</real><real>-16.64395</real>
+</record>
+<record color="1">
+<real>1.307163</real><real>-22.190967</real>
+</record>
+<record color="1">
+<real>5.036227</real><real>-13.667041</real>
+</record>
+<record color="1">
+<real>-1.05804</real><real>-12.139521</real>
+</record>
+<record color="1">
+<real>8.640265</real><real>-13.53316</real>
+</record>
+<record color="1">
+<real>-2.11069</real><real>-6.130094</real>
+</record>
+<record color="1">
+<real>1.09727</real><real>-13.10994</real>
+</record>
+<record color="1">
+<real>3.571113</real><real>-4.95321</real>
+</record>
+<record color="1">
+<real>2.007089</real><real>-7.373643</real>
+</record>
+<record color="1">
+<real>1.918747</real><real>-10.380735</real>
+</record>
+<record color="1">
+<real>-1.698493</real><real>-13.130591</real>
+</record>
+<record color="1">
+<real>-4.758851</real><real>-15.459437</real>
+</record>
+<record color="1">
+<real>-1.657984</real><real>-13.041107</real>
+</record>
+<record color="1">
+<real>-3.70527</real><real>-21.366086</real>
+</record>
+<record color="1">
+<real>-2.158054</real><real>-19.037958</real>
+</record>
+<record color="1">
+<real>-4.27255</real><real>-13.439915</real>
+</record>
+<record color="1">
+<real>-4.657189</real><real>-3.897878</real>
+</record>
+<record color="1">
+<real>3.642865</real><real>-13.988742</real>
+</record>
+<record color="1">
+<real>-2.282474</real><real>-12.230813</real>
+</record>
+<record color="1">
+<real>-0.58122</real><real>-9.389985</real>
+</record>
+<record color="1">
+<real>3.529234</real><real>-21.263934</real>
+</record>
+<record color="1">
+<real>3.400186</real><real>-17.923835</real>
+</record>
+<record color="1">
+<real>-2.34972</real><real>-15.510976</real>
+</record>
+<record color="1">
+<real>-0.966175</real><real>-7.620371</real>
+</record>
+<record color="1">
+<real>-2.597018</real><real>-10.847933</real>
+</record>
+<record color="1">
+<real>-0.875853</real><real>-8.663657</real>
+</record>
+<record color="1">
+<real>2.991243</real><real>-14.010651</real>
+</record>
+<record color="1">
+<real>-3.609302</real><real>-24.055273</real>
+</record>
+<record color="1">
+<real>-6.462836</real><real>-14.334529</real>
+</record>
+<record color="1">
+<real>-5.037882</real><real>-10.471333</real>
+</record>
+<record color="1">
+<real>-4.262482</real><real>-11.525985</real>
+</record>
+</records>
+</data>
+</ggobidata>

@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<!DOCTYPE ggobidata SYSTEM "ggobi.dtd">
+<ggobidata count="1">
+<activeColorScheme name="Spectral 6"/>
+<data>
+<variables count="3">
+ <realvariable name="f1"/>
+ <realvariable name="f2"/>
+</variables>
+<records count="100" glyph="fc 1" color="1">
+<record color="0">
+<real>3.83325624357292</real><real>1.73889369691655</real>
+</record>
+<record color="0">
+<real>0.253600097779397</real><real>1.42029221967058</real>
+</record>
+<record color="0">
+<real>2.3553398520796</real><real>2.95779335792755</real>
+</record>
+<record color="0">
+<real>3.18121459887418</real><real>0.394933662659557</real>
+</record>
+<record color="0">
+<real>3.09147570597616</real><real>1.52328979394651</real>
+</record>
+<record color="0">
+<real>0.176391985418713</real><real>1.65387330879223</real>
+</record>
+<record color="0">
+<real>2.40816246521528</real><real>0.973790888193176</real>
+</record>
+<record color="0">
+<real>2.32085747590893</real><real>0.0243416335105002</real>
+</record>
+<record color="0">
+<real>0.0947089629632711</real><real>3.50016057949702</real>
+</record>
+<record color="0">
+<real>3.49978395831712</real><real>1.64776607233408</real>
+</record>
+<record color="0">
+<real>3.63907538961256</real><real>3.28368147498022</real>
+</record>
+<record color="0">
+<real>1.4545462993599</real><real>1.14929630899447</real>
+</record>
+<record color="0">
+<real>2.75320435415398</real><real>3.40174465823674</real>
+</record>
+<record color="0">
+<real>0.652507158382385</real><real>2.82618092585153</real>
+</record>
+<record color="0">
+<real>3.11032939196286</real><real>0.0590386774183931</real>
+</record>
+<record color="0">
+<real>3.07123980308501</real><real>2.55898857654261</real>
+</record>
+<record color="0">
+<real>2.73394043905383</real><real>1.82911281579621</real>
+</record>
+<record color="0">
+<real>2.28235930682806</real><real>0.443563759169511</real>
+</record>
+<record color="0">
+<real>0.604604562735995</real><real>0.832236723592861</real>
+</record>
+<record color="0">
+<real>2.22282904854758</real><real>2.40110278053038</real>
+</record>
+<record color="0">
+<real>0.823689181340149</real><real>0.524036430720492</real>
+</record>
+<record color="0">
+<real>3.12177365079369</real><real>3.16457743521923</real>
+</record>
+<record color="0">
+<real>1.10804825158811</real><real>3.37241680002648</real>
+</record>
+<record color="0">
+<real>1.6497290565052</real><real>3.87974885676911</real>
+</record>
+<record color="0">
+<real>2.35913998503437</real><real>0.205392982732456</real>
+</record>
+<record color="0">
+<real>3.79887742085157</real><real>0.0316983514800304</real>
+</record>
+<record color="0">
+<real>3.45292858121038</real><real>0.883571633052227</real>
+</record>
+<record color="0">
+<real>1.97292159070671</real><real>3.52828119014342</real>
+</record>
+<record color="0">
+<real>0.476926313038491</real><real>3.00258114453784</real>
+</record>
+<record color="0">
+<real>0.646341564893147</real><real>2.88347500417799</real>
+</record>
+<record color="0">
+<real>2.34776545363702</real><real>2.56783705979025</real>
+</record>
+<record color="0">
+<real>3.98529539926849</real><real>0.441421995286893</real>
+</record>
+<record color="0">
+<real>2.63941951270923</real><real>1.27452819531638</real>
+</record>
+<record color="0">
+<real>0.204970299237934</real><real>0.15730880711155</real>
+</record>
+<record color="0">
+<real>3.64313821795449</real><real>1.03625492885526</real>
+</record>
+<record color="0">
+<real>2.48074101847029</real><real>1.85861643014194</real>
+</record>
+<record color="0">
+<real>3.21746887469578</real><real>1.20562939050778</real>
+</record>
+<record color="0">
+<real>3.70240677306528</real><real>1.09419234384459</real>
+</record>
+<record color="0">
+<real>0.105670042748546</real><real>3.67935395796099</real>
+</record>
+<record color="0">
+<real>2.86222574533686</real><real>1.27668171828979</real>
+</record>
+<record color="0">
+<real>1.42365209530767</real><real>3.73233145389377</real>
+</record>
+<record color="0">
+<real>0.992470837648615</real><real>0.918052920679024</real>
+</record>
+<record color="0">
+<real>3.61783762342542</real><real>0.891269523395354</real>
+</record>
+<record color="0">
+<real>0.536756434954915</real><real>3.65672462499199</real>
+</record>
+<record color="0">
+<real>2.32483497128401</real><real>2.30624510656846</real>
+</record>
+<record color="0">
+<real>0.481957431852675</real><real>2.85313114311014</real>
+</record>
+<record color="0">
+<real>0.90422758859239</real><real>2.70868996859193</real>
+</record>
+<record color="0">
+<real>2.15892885484774</real><real>1.43335615586382</real>
+</record>
+<record color="0">
+<real>1.73086854559312</real><real>0.0580008497267035</real>
+</record>
+<record color="0">
+<real>2.48239611990782</real><real>0.778615514833088</real>
+</record>
+<record color="1">
+<real>8.66608136584864</real><real>7.05551640600017</real>
+</record>
+<record color="1">
+<real>9.62365222267104</real><real>8.18452769938282</real>
+</record>
+<record color="1">
+<real>8.81851312391051</real><real>7.20193820820911</real>
+</record>
+<record color="1">
+<real>9.47796339651908</real><real>9.01793360001143</real>
+</record>
+<record color="1">
+<real>9.15766160322033</real><real>9.30551306896463</real>
+</record>
+<record color="1">
+<real>7.93481828058144</real><real>9.17521281767056</real>
+</record>
+<record color="1">
+<real>9.4999124084259</real><real>7.5935335347916</real>
+</record>
+<record color="1">
+<real>7.93123639782084</real><real>9.17593863964975</real>
+</record>
+<record color="1">
+<real>9.29009486393461</real><real>7.40020555012973</real>
+</record>
+<record color="1">
+<real>8.70510527916097</real><real>9.48080559749165</real>
+</record>
+<record color="1">
+<real>6.11035456248994</real><real>9.20794657948253</real>
+</record>
+<record color="1">
+<real>6.04075179047747</real><real>8.33912690786656</real>
+</record>
+<record color="1">
+<real>8.97598566299545</real><real>7.32132478011201</real>
+</record>
+<record color="1">
+<real>6.2569866632963</real><real>8.30985110780905</real>
+</record>
+<record color="1">
+<real>6.36058939076179</real><real>6.00724689731619</real>
+</record>
+<record color="1">
+<real>6.10218764088066</real><real>6.86730357579115</real>
+</record>
+<record color="1">
+<real>7.30119743120804</real><real>9.68814172312747</real>
+</record>
+<record color="1">
+<real>7.4046546196626</real><real>8.92131899436511</real>
+</record>
+<record color="1">
+<real>6.06517517696977</real><real>6.66469508072559</real>
+</record>
+<record color="1">
+<real>7.05295724856923</real><real>8.32977086722369</real>
+</record>
+<record color="1">
+<real>9.26451957970828</real><real>9.49976294551186</real>
+</record>
+<record color="1">
+<real>7.68546690674853</real><real>7.1142001342549</real>
+</record>
+<record color="1">
+<real>9.96828837707603</real><real>9.1915504760334</real>
+</record>
+<record color="1">
+<real>8.44629591525201</real><real>8.17651684272572</real>
+</record>
+<record color="1">
+<real>9.08751618855451</real><real>6.06754585371579</real>
+</record>
+<record color="1">
+<real>8.22655861762542</real><real>8.59734018065344</real>
+</record>
+<record color="1">
+<real>9.3301781804055</real><real>9.54572179280342</real>
+</record>
+<record color="1">
+<real>8.51944622634305</real><real>8.48438162548206</real>
+</record>
+<record color="1">
+<real>9.78272282252247</real><real>9.62087530930242</real>
+</record>
+<record color="1">
+<real>8.52006713656896</real><real>7.46499009040553</real>
+</record>
+<record color="1">
+<real>8.77346565538722</real><real>6.16791313121967</real>
+</record>
+<record color="1">
+<real>9.90585314028248</real><real>7.04065637254248</real>
+</record>
+<record color="1">
+<real>6.63670273361188</real><real>8.31137957374078</real>
+</record>
+<record color="1">
+<real>9.80792791877417</real><real>8.60813598520549</real>
+</record>
+<record color="1">
+<real>8.09394358424435</real><real>9.74284172386895</real>
+</record>
+<record color="1">
+<real>9.59122515292338</real><real>9.46868019033662</real>
+</record>
+<record color="1">
+<real>8.53334497399669</real><real>7.34972322687868</real>
+</record>
+<record color="1">
+<real>9.61090240043302</real><real>9.94559098418204</real>
+</record>
+<record color="1">
+<real>9.8066650235837</real><real>9.85947991394975</real>
+</record>
+<record color="1">
+<real>7.96034202582951</real><real>7.23997617769817</real>
+</record>
+<record color="1">
+<real>8.27201613047888</real><real>6.45197279352978</real>
+</record>
+<record color="1">
+<real>8.01899450431733</real><real>9.17719204276344</real>
+</record>
+<record color="1">
+<real>6.81696552161341</real><real>7.79313642255993</real>
+</record>
+<record color="1">
+<real>6.50346288680805</real><real>6.60252371488647</real>
+</record>
+<record color="1">
+<real>6.47286482212745</real><real>9.56091232152932</real>
+</record>
+<record color="1">
+<real>8.36487111166338</real><real>7.51656496240525</real>
+</record>
+<record color="1">
+<real>6.05282891887964</real><real>9.59917243175538</real>
+</record>
+<record color="1">
+<real>8.67691335854391</real><real>6.32084610735783</real>
+</record>
+<record color="1">
+<real>8.27681408199795</real><real>8.05179209511907</real>
+</record>
+<record color="1">
+<real>7.07265618697359</real><real>6.87047313316544</real>
+</record>
+</records>
+</data>
+</ggobidata>
